@@ -1,12 +1,32 @@
 ﻿using System;
+using EF.DB_Lib;
+using EF.Model;
 
 namespace EF.App
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
-            Console.WriteLine("Hello World!");
+            var db = new PersonsDb();
+
+            foreach (var person in db.TablePersons)
+            {
+                Console.WriteLine($"#{person.Id}: {person.LastName} {person.FirstName}, {person.Age}");
+            }
+
+            db.TablePersons.Add(new Person
+            {
+                FirstName = "Anonim",
+                LastName = "Anonimus",
+                Age = 0
+            });
+            db.SaveChanges();
+            
+            foreach (var person in db.TablePersons)
+            {
+                Console.WriteLine($"#{person.Id}: {person.LastName} {person.FirstName}, {person.Age}");
+            }
         }
     }
 }
