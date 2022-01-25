@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.App", "EF.App\EF.App.csproj", "{22D38FC7-180E-4ECA-A6D3-0908E553FA90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.Model", "EF.Model\EF.Model.csproj", "{DB4DB5F5-2E5C-4399-B32E-7B8072F55318}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22D38FC7-180E-4ECA-A6D3-0908E553FA90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D38FC7-180E-4ECA-A6D3-0908E553FA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D38FC7-180E-4ECA-A6D3-0908E553FA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D38FC7-180E-4ECA-A6D3-0908E553FA90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB4DB5F5-2E5C-4399-B32E-7B8072F55318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4DB5F5-2E5C-4399-B32E-7B8072F55318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4DB5F5-2E5C-4399-B32E-7B8072F55318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4DB5F5-2E5C-4399-B32E-7B8072F55318}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
