@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EF.DB_Lib
 {
-    public class PersonsDb : DbContext
+    public sealed class PersonsDb : DbContext
     {
         public DbSet<Person> TablePersons { get; set; }
 
